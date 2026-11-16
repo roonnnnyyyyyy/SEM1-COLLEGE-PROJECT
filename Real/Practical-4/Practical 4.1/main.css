@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e7ff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #003366;
+}
+
+.notice-box {
+  width: 500px;
+  background-color: #ffffff;
+  padding: 30px;
+  border: 10px solid #cc0000;
+  margin: 40px auto;
+}
+
+.notice-box h2 {
+  color: #cc0000;
+  margin-top: 0;
+}
+
+.notice-box p {
+  color: #333333;
+  line-height: 1.5;
+}

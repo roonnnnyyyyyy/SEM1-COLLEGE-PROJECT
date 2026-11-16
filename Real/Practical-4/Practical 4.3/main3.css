@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue on PC */
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.message {
+  background-color: #ffffcc;
+  padding: 10px;
+  border: 1px solid #cccc00;
+  margin-bottom: 20px;
+}
+
+/* Default PC Design (Side-by-side) */
+.department-box {
+  background-color: white;
+  border: 2px solid #0066cc;
+  padding: 20px;
+  margin: 1%;
+  width: 45%;
+  display: inline-block; /* Keeps them side-by-side */
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  
+  body {
+    background-color: #e6ffe6; /* Changes to light green on mobile */
+  }
+
+  .header {
+    background-color: #009933; 
+  }
+
+  .department-box {
+    width: 100%; 
+    display: block;
+    margin: 10px 0;
+  }
+  
+}

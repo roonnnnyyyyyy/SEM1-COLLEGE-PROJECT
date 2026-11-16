@@ -1,0 +1,54 @@
+body {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+.agrave-pro-1 {
+  font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #2c3e50;
+}
+
+.playwrite-au-sa-guides-regular {
+  font-family: "Playwrite AU SA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #8e44ad;
+}
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #27ae60;
+}
+
+.club-section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.contact-section {
+  background-color: #34495e;
+  color: white;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #f1c40f;
+}
