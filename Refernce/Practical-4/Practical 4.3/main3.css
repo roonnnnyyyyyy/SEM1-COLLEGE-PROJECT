@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e6e6fa;
+  text-align: center;
+}
+.responsive-box {
+  padding: 50px;
+  border-radius: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  background-color: #2e8b57;
+  width: 70%;
+  transition: all 0.4s ease;
+}
+@media (max-width: 800px) {
+  .responsive-box {
+    background-color: #4169e1;
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .responsive-box {
+    background-color: #dc143c;
+    font-size: 16px;
+    width: 90%;
+    padding: 30px;
+  }
+}

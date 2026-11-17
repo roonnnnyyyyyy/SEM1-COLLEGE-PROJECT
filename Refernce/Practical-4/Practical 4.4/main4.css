@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: #fdf5e6;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #c71585;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffb6c1;
+  padding: 30px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.flex-item {
+  background-color: #c71585;
+  color: white;
+  padding: 40px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

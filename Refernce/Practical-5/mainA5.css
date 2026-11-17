@@ -1,0 +1,38 @@
+body {
+  background-color: #fffafa;
+  color: #333;
+  padding: 40px;
+  text-align: center;
+}
+.agrave-pro {
+  font-family: "Agrave Pro", cursive, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  color: #8b0000;
+}
+.playwrite-au-sa-guides-regular {
+  font-family: "Playwrite AU SA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #00008b;
+  margin: 30px 0;
+}
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  color: #006400;
+}
+.icon-box {
+  margin-top: 50px;
+  color: #ff8c00;
+}
+.material-icons {
+  font-size: 60px;
+  vertical-align: middle;
+  margin: 0 20px;
+}
